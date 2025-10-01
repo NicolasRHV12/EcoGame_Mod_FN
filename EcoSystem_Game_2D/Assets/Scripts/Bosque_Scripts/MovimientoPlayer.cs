@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MovimientoPlayer : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
@@ -15,7 +16,7 @@ public class MovimientoPlayer : MonoBehaviour
     private bool mirandoDerecha = true;
 
     [Header("Salto")]
-    public float speedSalto = 8f;
+    public float speedSalto = 10f;
     public Transform checkpiso;
     public LayerMask layerPiso;
 
@@ -35,7 +36,8 @@ public class MovimientoPlayer : MonoBehaviour
         // Salto con Space
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, speedSalto);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, speedSalto); // Cambiado aquí
+           
         }
 
         // Voltear al moverse
@@ -47,6 +49,8 @@ public class MovimientoPlayer : MonoBehaviour
         {
             voltear();
         }
+
+        
     }
 
     private void FixedUpdate()
