@@ -5,7 +5,7 @@ public class BtnQuestions : MonoBehaviour
 {
     public void IrAEscenaContexto()
     {
-        SceneManager.LoadScene("Questions");
+        SceneManager.LoadScene("2Questions");
     }
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created

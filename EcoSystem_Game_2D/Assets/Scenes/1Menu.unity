@@ -1291,10 +1291,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenasConMusicaMenu:
-  - Menu
-  - Creditos
-  - Creditos
-  - Creditos
+  - 1Menu
+  - 2Questions
+  - 3Bosque
+  - 4Lava
 --- !u!1 &1488590824
 GameObject:
   m_ObjectHideFlags: 0

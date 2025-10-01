@@ -8,7 +8,7 @@ public class Btn_volver : MonoBehaviour
 
     public void RegresarAlMenu()
     {
-        SceneManager.LoadScene(nombreMenu);
+        SceneManager.LoadScene("1Menu");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

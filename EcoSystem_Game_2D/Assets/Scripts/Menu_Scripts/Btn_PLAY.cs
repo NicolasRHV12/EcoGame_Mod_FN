@@ -5,7 +5,7 @@ public class Btn_PLAY : MonoBehaviour
 {
     public void IrAEscenaInstrucciones()
     {
-        SceneManager.LoadScene("1_ESCENARIO");
+        SceneManager.LoadScene("3Bosque");
     }
 
 

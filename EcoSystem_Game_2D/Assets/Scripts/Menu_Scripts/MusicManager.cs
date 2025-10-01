@@ -42,7 +42,7 @@ public class MusicManager : MonoBehaviour
         ControlarMusica(scene.name);
 
         // Aplica mute global
-        //AplicarMuteATodos();
+        AplicarMuteATodos();
     }
 
     private void ControlarMusica(string escenaActual)
