@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: a26037bc59455ae46aaf261f76b25a01
+guid: 80506c7564691504d9b774d6a0755eea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1704302695946473935
-    second: 9183434_0
+      213: 8269221906469684235
+    second: ENTREGA FINAL (5)_0
   - first:
-      213: -9110315508223991345
-    second: 9183434_1
+      213: 8218239646700469167
+    second: ENTREGA FINAL (5)_1
   - first:
-      213: -6194755588257097853
-    second: 9183434_2
+      213: -1748570869405099749
+    second: ENTREGA FINAL (5)_2
+  - first:
+      213: 3306631798603657843
+    second: ENTREGA FINAL (5)_3
+  - first:
+      213: 6842844777811614938
+    second: ENTREGA FINAL (5)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,17 +108,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 9183434_0
+      name: ENTREGA FINAL (5)_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 121
-        width: 247
-        height: 270
+        x: 543
+        y: 892
+        width: 946
+        height: 1764
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc151ada546e6a710800000000000000
-      internalID: 1704302695946473935
+      spriteID: b040100038d22c270800000000000000
+      internalID: 8269221906469684235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9183434_1
+      name: ENTREGA FINAL (5)_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 170
-        width: 75
-        height: 172
+        x: 1592
+        y: 1434
+        width: 337
+        height: 685
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc1a3945058a19180800000000000000
-      internalID: -9110315508223991345
+      spriteID: fabfc94aa6d0d0270800000000000000
+      internalID: 8218239646700469167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9183434_2
+      name: ENTREGA FINAL (5)_2
       rect:
         serializedVersion: 2
-        x: 339
-        y: 145
-        width: 93
-        height: 222
+        x: 1754
+        y: 1163
+        width: 490
+        height: 1225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +197,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 387d19b1d9ec70aa0800000000000000
-      internalID: -6194755588257097853
+      spriteID: b1953800f04dbb7e0800000000000000
+      internalID: -1748570869405099749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTREGA FINAL (5)_3
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 892
+        width: 645
+        height: 1767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37238cef91483ed20800000000000000
+      internalID: 3306631798603657843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTREGA FINAL (5)_4
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 778
+        width: 2078
+        height: 1841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc199a021ba6fe50800000000000000
+      internalID: 6842844777811614938
       vertices: []
       indices: 
       edges: []
@@ -184,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ENTREGA FINAL (5)_0: 8269221906469684235
+      ENTREGA FINAL (5)_1: 8218239646700469167
+      ENTREGA FINAL (5)_2: -1748570869405099749
+      ENTREGA FINAL (5)_3: 3306631798603657843
+      ENTREGA FINAL (5)_4: 6842844777811614938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
