@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1_ESCENARIO.unity
+    path: Assets/Scenes/Bosque.unity
     guid: 88b7c50daf691574085d62cee4929ccc
   - enabled: 1
     path: Assets/Scenes/Questions.unity
