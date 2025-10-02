@@ -8,7 +8,7 @@ public class PuntoMuerte : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("¡El jugador cayó en el punto de muerte!");
-            SceneManager.LoadScene("Game Over");
+            SceneManager.LoadScene("5Game_Over");
         }
     }
 }

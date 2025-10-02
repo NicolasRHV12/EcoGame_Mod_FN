@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         if (vidas <= 0)
         {
             Debug.Log("¡El jugador ha muerto! Cargando Game Over...");
-            SceneManager.LoadScene("Game Over"); // 👈 Asegúrate que exista esa escena
+            SceneManager.LoadScene("5Game_Over"); // 👈 Asegúrate que exista esa escena
         }
     }
 }

@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/5Game_Over.unity
+    guid: 4e83df32ae08add42aef73ff80d1dc20
+  - enabled: 1
+    path: Assets/Scenes/6Victory.unity
+    guid: a95a74e86d8cd424faf2c10d4022820f
+  - enabled: 1
     path: Assets/Scenes/3Bosque.unity
-    guid: 88b7c50daf691574085d62cee4929ccc
+    guid: c6f7fe0a21a901a41b5e454cb5a4cc2b
+  - enabled: 1
+    path: Assets/Scenes/4Lava.unity
+    guid: 6a16988207b7dee4180b27e75dd0a21b
   - enabled: 1
     path: Assets/Scenes/2Questions.unity
     guid: 91e791a55c29f3a408d93922ca6b4f0d

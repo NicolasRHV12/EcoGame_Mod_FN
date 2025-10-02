@@ -14,7 +14,7 @@ public class PuntoMeta : MonoBehaviour
                 ContadorElementos.instancia.elementosBuenos >= ContadorElementos.instancia.totalElementosBuenos)
             {
                 Debug.Log("¡Llegó a la meta con todos los elementos! Victoria 🚀");
-                SceneManager.LoadScene("Victoria"); 
+                SceneManager.LoadScene("6Victory"); 
             }
             else
             {

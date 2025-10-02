@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class tiempoBarra : MonoBehaviour
 {
-    public float tiempoTotal = 100f;   // Tiempo inicial 
+    public float tiempoTotal = -50f;   // Tiempo inicial 
     private float tiempoRestante;
 
     public Transform barra;            // La barra que representa el tiempo
@@ -54,14 +54,14 @@ public class tiempoBarra : MonoBehaviour
     {
         Debug.Log("¡Tiempo terminado!");
         tiempoDetenido = true;
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("5Game_Over");
     }
 
     public void DetenerTiempoPorVictoria()
     {
         tiempoDetenido = true; 
         Debug.Log("¡Ha llegado a salvo!");
-        SceneManager.LoadScene("Victoria");
+        SceneManager.LoadScene("6Victory");
     }
 
     public void AgregarTiempo(float segundos)

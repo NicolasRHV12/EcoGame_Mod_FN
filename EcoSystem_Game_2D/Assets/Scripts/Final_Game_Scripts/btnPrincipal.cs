@@ -7,6 +7,6 @@ public class btnPrincipal : MonoBehaviour
 
     public void IrAEscena()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene("1Menu");
     }
 }
