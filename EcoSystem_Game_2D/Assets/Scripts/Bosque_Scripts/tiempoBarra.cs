@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class tiempoBarra : MonoBehaviour
 {
-    public float tiempoTotal = -50f;   // Tiempo inicial 
+    public float tiempoTotal = -10f;   // Tiempo inicial 
     private float tiempoRestante;
 
     public Transform barra;            // La barra que representa el tiempo
